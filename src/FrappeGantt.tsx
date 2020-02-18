@@ -71,7 +71,7 @@ export class FrappeGantt extends React.Component<FrappeGanttProps, any> {
     return (
       <div style={{ overflow: "scroll" }} ref={this._target}>
         <svg
-          className="gantt-label-container"
+          className="js-gantt-label-container"
           style={{
             height: '1px',
             overflow: 'visible',
